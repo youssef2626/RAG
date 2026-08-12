@@ -1,0 +1,131 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# =========================
+# Environment & Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# API keys / tokens
+*.pem
+*.key
+
+# =========================
+# Jupyter Notebook
+# =========================
+
+.ipynb_checkpoints/
+
+# Jupyter temporary files
+*.ipynb_checkpoints
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+
+# =========================
+# Hugging Face
+# =========================
+
+# Local Hugging Face cache
+.cache/
+huggingface/
+huggingface_cache/
+
+# Downloaded models
+models/
+model/
+checkpoints/
+
+# =========================
+# Machine Learning
+# =========================
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# TensorFlow
+*.h5
+*.keras
+
+# =========================
+# Vector Databases
+# =========================
+
+# Chroma
+chroma/
+chroma_db/
+
+# FAISS
+faiss_index/
+faiss_indexes/
+
+# LanceDB
+.lancedb/
+
+# Qdrant local storage
+qdrant_storage/
+
+# =========================
+# Data
+# =========================
+
+# Temporary / raw data
+data/raw/
+data/temp/
+data/tmp/
+
+# Large processed datasets
+data/processed/
+
+# =========================
+# Logs
+# =========================
+
+logs/
+*.log
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*.swo
